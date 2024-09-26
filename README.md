@@ -1,0 +1,1 @@
+This repository contains a collection of essential algorithms used in competitive programming, written in C++. It's designed to serve as a quick reference and resource for common algorithmic problems.
