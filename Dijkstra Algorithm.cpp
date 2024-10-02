@@ -24,8 +24,12 @@ void dijkstra(ll src,ll n)
     while(!pq.empty())
     {
         ll u = pq.top().ss;
+        ll dist = pq.top().ff;
 
         pq.pop();
+
+        if(dist>cost[u])
+            continue;
 
         for(auto i:grp[u])
         {
